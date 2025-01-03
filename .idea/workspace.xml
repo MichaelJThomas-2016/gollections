@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8b74301a-c445-455d-8acf-21eeb710f2cb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../gobyexample/examples/range-over-built-in-types/range-over-built-in-types.go" beforeDir="false" afterPath="$PROJECT_DIR$/../gobyexample/examples/range-over-built-in-types/range-over-built-in-types.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/counter.go" beforeDir="false" afterPath="$PROJECT_DIR$/counter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/counter_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/counter_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/heapq.go" beforeDir="false" afterPath="$PROJECT_DIR$/heapq.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/heapq_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/heapq_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +28,7 @@
   <component name="GOROOT" url="file:///opt/homebrew/Cellar/go/1.23.0/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -51,20 +56,28 @@
     "DefaultGoTemplateProperty": "Go File",
     "Go Build.go build ordered_dict.go.executor": "Run",
     "Go Build.go build slices.go.executor": "Run",
+    "Go Test.TestCounter_MostCommon in gollections.executor": "Run",
+    "Go Test.TestHeapQ_NLargest in gollections.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/Users/michaelthomas",
+    "last_opened_file_path": "/Users/michaelthomas/GolandProjects/gollections",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Go Build.go build ordered_dict.go">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/pkg" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.TestCounter_MostCommon in gollections">
     <configuration name="go build ordered_dict.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="gollections" />
       <working_directory value="$PROJECT_DIR$" />
@@ -93,8 +106,32 @@
       <filePath value="$PROJECT_DIR$/../gobyexample/examples/slices/slices.go" />
       <method v="2" />
     </configuration>
+    <configuration name="TestCounter_MostCommon in gollections" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gollections" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="gollections" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCounter_MostCommon\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestHeapQ_NLargest in gollections" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gollections" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="gollections" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestHeapQ_NLargest\E$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestCounter_MostCommon in gollections" />
+        <item itemvalue="Go Test.TestHeapQ_NLargest in gollections" />
         <item itemvalue="Go Build.go build ordered_dict.go" />
         <item itemvalue="Go Build.go build slices.go" />
       </list>
@@ -117,7 +154,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

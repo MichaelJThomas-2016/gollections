@@ -24,3 +24,18 @@ func TestCounter_MostCommon(t *testing.T) {
 	)
 
 }
+
+func TestCounter_Total(t *testing.T) {
+	c := NewCounter[string]()
+	words := []string{"a", "b", "a", "c", "b", "a"}
+	for _, w := range words {
+		c.Add(w)
+	}
+	expected := 6
+	actual := c.Total()
+	t.Run("test totals", func(t *testing.T) {
+		if !reflect.DeepEqual(expected, actual) {
+			t.Errorf("Got %v\n %v\n", actual, expected)
+		}
+	})
+}

@@ -59,3 +59,18 @@ func (c *Counter[K]) MostCommon(n int) []CountItem[K] {
 	}
 	return items[:n]
 }
+
+func (c *Counter[K]) Total() int {
+	var total int
+	for _, val := range c.data {
+		total += val
+	}
+	return total
+}
+
+func (c *Counter[K]) Subtract(key K) {
+	_, ok := c.data[key]
+	if ok {
+		c.data[key]--
+	}
+}

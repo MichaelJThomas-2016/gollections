@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b74301a-c445-455d-8acf-21eeb710f2cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ordered_dict.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gobyexample/examples/range-over-built-in-types/range-over-built-in-types.go" beforeDir="false" afterPath="$PROJECT_DIR$/../gobyexample/examples/range-over-built-in-types/range-over-built-in-types.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/counter.go" beforeDir="false" afterPath="$PROJECT_DIR$/counter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/counter_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/counter_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/heapq.go" beforeDir="false" afterPath="$PROJECT_DIR$/heapq.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/heapq_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/heapq_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter.go" beforeDir="false" afterPath="$PROJECT_DIR$/counter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/counter_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +56,7 @@
     "Go Build.go build ordered_dict.go.executor": "Run",
     "Go Build.go build slices.go.executor": "Run",
     "Go Test.TestCounter_MostCommon in gollections.executor": "Run",
+    "Go Test.TestCounter_Total in gollections.executor": "Run",
     "Go Test.TestHeapQ_NLargest in gollections.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -77,7 +77,7 @@
       <recent name="$PROJECT_DIR$/pkg" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCounter_MostCommon in gollections">
+  <component name="RunManager" selected="Go Test.TestCounter_Total in gollections">
     <configuration name="go build ordered_dict.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="gollections" />
       <working_directory value="$PROJECT_DIR$" />
@@ -117,6 +117,17 @@
       <pattern value="^\QTestCounter_MostCommon\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestCounter_Total in gollections" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gollections" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="gollections" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCounter_Total\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestHeapQ_NLargest in gollections" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="gollections" />
       <working_directory value="$PROJECT_DIR$" />
@@ -130,6 +141,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestCounter_Total in gollections" />
         <item itemvalue="Go Test.TestCounter_MostCommon in gollections" />
         <item itemvalue="Go Test.TestHeapQ_NLargest in gollections" />
         <item itemvalue="Go Build.go build ordered_dict.go" />
